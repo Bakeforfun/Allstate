@@ -4,7 +4,7 @@ cd ~
 wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
 bash Anaconda3-4.2.0-Linux-x86_64.sh -b
 echo 'PATH="/home/ubuntu/anaconda3/bin:$PATH"' >> .bashrc
-. .bashrc
+. ~/.bashrc
 
 sudo apt-get -y install make
 sudo apt-get -y update
