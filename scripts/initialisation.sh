@@ -37,8 +37,3 @@ c.NotebookApp.ip = '*'\\
 c.NotebookApp.open_browser = False\\
 c.NotebookApp.password = u'$key'\\
 c.NotebookApp.port = 8888" .jupyter/jupyter_notebook_config.py
-
-tmux new -s nb
-mkdir notebook
-cd notebook
-jupyter notebook

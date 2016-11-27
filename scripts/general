@@ -1,0 +1,6 @@
+sudo apt-get install git
+git clone https://github.com/Bakeforfun/Allstate.git
+
+tmux new -s nb
+cd Allstate
+jupyter notebook
